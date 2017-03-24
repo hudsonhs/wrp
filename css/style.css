@@ -1,0 +1,53 @@
+body {
+  font-family: "EB Garamond", sans-serif;
+}
+
+h1, h2, h3 {
+  color: rgb(139, 0, 0);
+}
+
+.card-img-top{
+
+  width:100%;
+  height:auto;
+
+}
+
+.navbar-toggler{
+	color:#fff;
+}
+
+.main-jumbo {
+  color: white;
+  background: url("../img/wrp_header.jpg");
+  background-size: cover;
+  height: 450px;
+}
+
+.jumbo-button {
+  position: absolute;
+  bottom: 250px;
+}
+
+.connect {
+	margin-top: 2em;
+	display: flex;
+	justify-content: center;
+}
+
+.icon {
+	width: 1em;
+	margin: .3em;
+}
+
+.navbar-brand:hover{
+  opacity:0.5;
+}
+
+.hudlink{
+  color:inherit;
+}
+
+#success{
+  display: none;
+}
